@@ -14,7 +14,7 @@ clc
 %condition (1=hc, 2=od, 3=or, 4=con) and condition sequence in this order separated by a space or
 %comma
 experiment= [8,1,3,1]; 
-
+error
 a = experiment(1);
 t = experiment (2);
 c = experiment (3);
