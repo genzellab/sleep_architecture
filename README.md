@@ -20,7 +20,7 @@ These scripts were created for the sleep_architecture analysis of the object spa
 
 __NEWEST VERSION (FINAL RGS14 PAPER)__
 
-concatenate_states_new_NSD.m  
-Analysis_OS_Sleep_arch_whole_day_Sleep_stage_episode_MA15.m
-Analysis_OS_Sleep_arch_45min_bin_v4_Sleep_stage_episode_MA15.m 
+- concatenate_states.m  
+- Analysis_OS_Sleep_arch_whole_day_Sleep_stage_episode_MA15.m
+- Analysis_OS_Sleep_arch_45min_bin_v4_Sleep_stage_episode_MA15.m 
 
