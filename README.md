@@ -18,7 +18,7 @@ These scripts were created for the sleep_architecture analysis of the object spa
 (4) Check that you have the same structure for all animals. In case a vector for a particular trial is missing, create an empty one and save it with a name that keep in the correct temporal sequence (e.g  states=(nan:1:2700) or states=(nan:1:10800))
 
 
-__NEWEST VERSION (FINAL RGS14 PAPER)__
+__NEWEST VERSION (FINAL RGS14 & CBD papers)__
 
 - concatenate_states.m  
 - Analysis_OS_Sleep_arch_whole_day_Sleep_stage_episode_MA15.m
