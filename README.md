@@ -11,7 +11,7 @@ Input used by these scripts: the  vectors ('-states.mat') obtained from manual s
 These scripts were created for the sleep_architecture analysis of the object space task in rat and the data structure is project name\folder per animals\folder per study day.  (which should contain:rat name, study day, condition (or=overlapping, od=stable, con=random, hc=homecage) and should finish by a number which corresponds to the session of that condition condition (e.g. Rat1_57986_SD2_OD_1).
 
   Important!!!
-(1) [Adritools](https://github.com/Aleman-Z/ADRITOOLS) and [CorticoHippocampal](https://github.com/Aleman-Z/CorticoHippocampal) will be needed it in your Matlab path. Else Matlab won't recognize'getfolder' or 'ConsecutiveOnes'.
+(1) [Adritools](https://github.com/Aleman-Z/ADRITOOLS) and [CorticoHippocampal](https://github.com/Aleman-Z/CorticoHippocampal) will be needed in your Matlab path. Else Matlab won't recognize'getfolder' or 'ConsecutiveOnes'.
 (2) Be sure that the files from manual scorer '-states.mat' are organized in the correct temporal sequence  
 (pre-sleep, post_trial1, post_trial2, post_trial3, post_trial4, post_trial5, pre-sleep_test, post_trial6). In case, pre-sleep_Test and post_trial6 are inside of an extra folder called 'Test', move them to the current directory.
 (3)Check that only one file per resting period is in the folder, so in case there were more than one (e.g ...post_trial5_1 and post_trial5_2, concatenated both files first and delete o put the other two files in a different folder.
