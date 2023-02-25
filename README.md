@@ -24,3 +24,7 @@ __NEWEST VERSION (FINAL RGS14 & CBD papers)__
 - Analysis_OS_Sleep_arch_whole_day_Sleep_stage_episode_MA15.m
 - Analysis_OS_Sleep_arch_45min_bin_v4_Sleep_stage_episode_MA15.m 
 
+
+## Credits:
+- Irene Navarro-Lobato
+- [Adrián Alemán-Zapata](https://github.com/Aleman-Z)
