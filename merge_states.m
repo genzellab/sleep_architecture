@@ -1,5 +1,5 @@
 function [episode_states]=merge_states(new_states)
-
+% This script searches for short wake periods of 5 minutes. If the preceding and the posterior sleep stage are the same then the wake period is converted to such sleep stage. 
 x=new_states;
 
 % %Remove zeros.
@@ -20,7 +20,7 @@ Microarousal=ConsecutiveOnes(microarousal);
 StartBout=find(Microarousal~=0);
 EndBout=StartBout+Microarousal(find(Microarousal~=0))-1;
 DurationBout=EndBout-StartBout;
-ShortBoutID=find(DurationBout<=300); %Bout ID shorter than 15 seconds.
+ShortBoutID=find(DurationBout<=300); % Wake bout shorter than 5 minutes.
 
     %Merging loop
   for k=1:length(ShortBoutID)
