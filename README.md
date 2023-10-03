@@ -1,4 +1,4 @@
-# sleep_architecture :sleeping: :rat:
+# sleep architecture :sleeping: :rat:
 Scripts to analyse sleep stages bout durations and transitions from rat LFP.
 
 __OLDER VERSION__
